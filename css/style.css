@@ -1,0 +1,298 @@
+/* CSS Document */
+ 
+  body{
+       background-color:#FFFFFF;
+       margin:0px;
+       padding:0px;
+	   margin-top:17px;
+	   clear:both;}
+	   
+  .main{
+       width:100%;
+	   background-color:#FFFFFF;
+	   overflow:hidden;
+	   margin:0px;
+	   padding:0px;}
+	   
+  .index_main{
+       width:1024px;}
+	   
+  .index_mainpixel{
+       width:945px;}
+	   
+  .index_top{
+       width:945px;
+	   height:229px;
+	   background-image:url(../images/header_strip.jpg);
+	   background-repeat:repeat-x;
+	   overflow:hidden;}
+	   
+  .index_topleft{
+        width:567px;
+		height:229px;
+		float:left;}
+		
+  .index_topright{
+        width:365px;
+		height:229px;
+		float:right;}
+		
+  .index_logo{
+        margin-top:97px;
+		padding-left:43px;
+		float:left;}
+		
+   img{border:0px;}
+   
+   .index_containt{
+        width:945px;
+		float:left;
+		margin-top:5px;
+		overflow:hidden;}
+		
+   .index_block1{
+        width:315px;
+		height:480px;
+		float:left;
+		border:1px solid #d1e688;}
+		
+   .index_space1{
+        width:9px;
+		float:left;}
+		
+   .index_block2{
+         width:328px;
+		 height:480px;
+		 float:left;
+		 border:1px solid #fcd096;}
+		 
+   .index_block3{
+         width:274px;
+		 height:480px;
+		 float:left;
+		 border:1px solid #d1e688}
+		 
+   .index_block1heading{
+         width:265px;}
+		 
+   .index_WhoWeAre{
+         width:265px;
+		 height:44px;
+		 margin-top:22px;}
+		 
+   .index_containtblock1{
+         width:265px;
+		 float:left;
+		 font-family:Tahoma;
+		 font-size:13px;
+		 color:#042372;}
+		 
+   .index_blocktabs{
+         width:265px;
+		 float:left;}
+		 
+   .index_block2heading{
+         width:232px;}
+		 
+   .index_block2containt{
+         width:265px;
+		 float:left;
+		 font-family:Tahoma;
+		 font-size:13px;
+		 color:#042372;}
+		 
+    .index_block3mi{
+	     width:230px;
+		 border:1px solid #000000;}
+		 
+	.index_block3img{
+	     width:230px;}
+		 
+	.index_block3containt{
+	     width:230px;
+		 float:left;
+		 font-family:Tahoma;
+		 font-size:13px;
+		 color:#042372;}
+		 
+	.index_fottarblock{
+	     width:945px;
+		 height:132px;
+		 float:left;}
+		 
+	.index_fottartop{
+	      height:26px;}
+		  
+	.index_fottarmiddile{
+	     width:945px;
+		 height:47px;
+		 float:left;
+		 background-image:url(../images/tab_strip.jpg);
+		 background-repeat:repeat-x;}
+		 
+	.index_fottarcontaint{
+	    font-family:tahoma;
+		height:47px;
+	    font-size:11px;
+	    color:#FFFFFF;
+		line-height:60px;}
+   
+   
+   
+   
+   /*Block1*/
+  .cetagories{
+	width:220px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#7db221;
+	
+	}
+.cetagories ul{
+	margin:0px;
+	padding:0px;
+	}
+.cetagories li{
+	overflow:hidden;	
+	list-style-type:none;
+	height:25px;
+	line-height:26px;
+	background-image:url(../images/arrow.jpg);
+	background-repeat:no-repeat;
+	background-position:center left;
+	}
+.cetagories  li a{
+    font-family:Tahoma;
+    font-size:11px;
+	display:block;
+	color:#7db221;
+	height:28px;
+	line-height:26px;
+	text-decoration:none;
+	padding-left:15px;}
+	
+.cetagories  li a:hover{
+	display:block;
+	text-decoration:underline;
+	color:#f28819;
+	}
+   <!--Block1_end-->
+   
+   
+   
+   /*tabs_block*/
+   
+  .index_tabstrip1{
+        width:945px;
+		height:47px;
+        background-image:url(../images/tab_strip.jpg);
+		background-repeat:repeat-x;}
+  
+   .index_tabblock{
+        width:880px;
+		height:47px;}
+		
+   .index_about{
+         width:192px;
+		 height:47px;
+		 float:left;
+		 background-image:url(../images/about.jpg);
+		 background-repeat:no-repeat;
+		 border-left:1px solid #f3ae5a;  border-right:1px solid #f3ae5a;}
+		 
+   .index_about:hover{
+         border-left:1px solid #6e8bb3;  border-right:1px solid #6e8bb3;
+		 background-image:url(../images/about_hover.jpg);
+		 background-repeat:no-repeat;}
+		 
+    .index_service{
+         width:297px;
+		 height:47px;
+		 float:left;
+		 background-image:url(../images/services.jpg);
+		 background-repeat:no-repeat;
+		 border-left:1px solid #f3ae5a;  border-right:1px solid #f3ae5a;}
+		 
+   .index_service:hover{
+         border-left:1px solid #6e8bb3;  border-right:1px solid #6e8bb3;
+		 background-image:url(../images/services_hover.jpg);
+		 background-repeat:no-repeat;}
+		 
+    .index_oursatff{
+         width:188px;
+		 height:47px;
+		 float:left;
+		 background-image:url(../images/ourstaff.jpg);
+		 background-repeat:no-repeat;
+		 border-left:1px solid #f3ae5a;  border-right:1px solid #f3ae5a;}
+		 
+   .index_oursatff:hover{
+         border-left:1px solid #6e8bb3;  border-right:1px solid #6e8bb3;
+		 background-image:url(../images/ourstaff_hover.jpg);
+		 background-repeat:no-repeat;}
+		 
+    .index_contact{
+         width:191px;
+		 height:47px;
+		 float:left;
+		 background-image:url(../images/contact.jpg);
+		 background-repeat:no-repeat;
+		 border-left:1px solid #f3ae5a;  border-right:1px solid #f3ae5a;}
+		 
+   .index_contact:hover{
+         border-left:1px solid #6e8bb3;  border-right:1px solid #6e8bb3;
+		 background-image:url(../images/contact_hover.jpg);
+		 background-repeat:no-repeat;}
+		 
+		   /*tabs_block_end*/
+		   
+		   
+		   /*subpagestart*/
+	.sub_containt{
+	      width:600px;
+		  float:right;
+		  margin-top:22px;}
+		  
+	.servicesover{
+	     width:600px;
+		 float:left;
+		 height:33px;}
+		 
+	.img{
+	      width:200px;
+		  float:left;
+		  height:140px;
+		  margin-top:20px;}
+		  
+	.serviceblock1{
+	     width:400px;
+		 float:left;
+		 height:140px;
+		 margin-top:20px;}
+		 
+	.servicesblock2{
+	     width:600px;
+		 float:left;
+		 margin-top:10px;}
+		 
+	.servicetext{
+	     font-family:Tahoma;
+		 font-size:13px;
+		 line-height:20px;
+		 color:#042372;}
+		 
+	 .servicesover{
+	      font-family:Tahoma;
+		  font-size:12px;
+		  color:#ffc62a;
+		  font-weight:600;
+		  line-height:25px;
+		  text-decoration:none;}
+		  
+	.servicesover:hover{
+	      color:7db221;
+		  text-decoration:underline;}
+		      /*subpageEnd*/
+  
+  
